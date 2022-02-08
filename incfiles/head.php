@@ -24,10 +24,10 @@ header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
 header("Cache-Control: no-cache, must-revalidate");
 header("Pragma: no-cache");
 header("Last-Modified: " . gmdate("D, d M Y H:i:s") . "GMT");
-header((stristr($agn, "msie") && stristr($agn, "windows")) ? 'Content-type: text/html; charset=UTF-8' : 'Content-type: application/xhtml+xml; charset=UTF-8');
-echo '<?xml version="1.0" encoding="utf-8"?>' . "\n";
-echo "\n" . '<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">';
-echo "\n" . '<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">';
+header('Content-type: text/html; charset=UTF-8');
+
+echo "\n" . '<!DOCTYPE html>';
+echo "\n" . '<html>';
 echo "\n" . '<head><meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8"/>';
 echo "\n" . '<link rel="shortcut icon" href="' . $home . '/favicon.ico" />';
 echo "\n" . '<meta name="copyright" content="Powered by JohnCMS" />';// ВНИМАНИЕ!!! Данный копирайт удалять нельзя
@@ -162,5 +162,3 @@ if ($headmod != "pradd") {
         echo "<div class=\"rmenu\" style='text-align: center'><a href='$home/str/pradd.php?act=in&amp;new'><b><font color='red'>Вам письмо: $countnew</font></b></a></div>";
     }
 }
-
-?>
