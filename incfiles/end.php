@@ -41,7 +41,6 @@ if ($set_user['quick_go']) {
     <option value="down">Загрузки</option>
     <option value="lib">Библиотека</option>
     <option value="chat">Чат</option>
-    <option value="gazen">Газенвагенъ</option>
     </select><input type="submit" value="Go!" style="font-size:x-small"/>';
     echo '</div></form>';
 }

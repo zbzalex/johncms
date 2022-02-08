@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
 ////////////////////////////////////////////////////////////////////////////////
@@ -35,6 +35,3 @@ echo '<div class="bmenu">Полезное</div>';
 echo '<div class="menu"><a href="download/">Загрузки</a> (' . dload() . ')</div>';
 echo '<div class="menu"><a href="library/">Библиотека</a> (' . stlib() . ')</div>';
 echo '<div class="menu"><a href="gallery/">Галерея</a> (' . fgal() . ')</div>';
-echo '<div class="bmenu"><a href="http://gazenwagen.com">Ф Газенвагенъ</a></div>';
-
-?>
