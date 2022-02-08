@@ -52,5 +52,3 @@ if ($do)
         echo '<a href="read.php">В FAQ</a><br /><br />';
 
 require_once ('incfiles/end.php');
-
-?>

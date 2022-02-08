@@ -62,5 +62,3 @@ echo '</select>';
 echo '</p><p><input type="submit" name="submit" value="Сохранить"/></p></div></form>';
 echo '<div class="phdr">&nbsp;</div>';
 echo '<p><a href="index.php">Админ панель</a></p>';
-
-?>

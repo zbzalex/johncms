@@ -77,7 +77,8 @@ $dbConfigFile = __DIR__.'/db.php';
 // Подключаемся к базе данных                             //
 ////////////////////////////////////////////////////////////
 if (!is_file($dbConfigFile)) {
-//    exit('500');
+    // ...
+    exit;
 }
 
 require_once ($dbConfigFile);
